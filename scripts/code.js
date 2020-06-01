@@ -32,6 +32,7 @@ let clientNumber = 0;
 
 enterMainQueueButton.addEventListener('click', () => {
   clientNumber += 1;
+  debugger;
   mainQueue.add('client' + clientN);
   clientList.textContent = mainQueue.list;
 });
